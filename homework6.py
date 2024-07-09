@@ -5,9 +5,9 @@ print(my_dict.get('Katya'))
 my_dict.update({'Sergey': 1988,
                'Anton': 1978})
 print(my_dict)
-del my_dict['Lena']
-print(my_dict.get('Lena'))
+a=my_dict.pop('Lena')
 print(my_dict)
+print(a)
 
 
 my_set = {1,1,1,2,2, 'banana', True}
